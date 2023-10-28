@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="icon"  href="images/IMG_20221228_134737 (1).jpg">
+    <link rel="stylesheet"  href="style_s.css">
+    
+    <script src="https://kit.fontawesome.com/ac7edd5d55.js" crossorigin="anonymous"></script>
+</head>
+<body onload = "alert('Welcome !')">
+
+  <div id="header">
+    <div class="container">
+   <nav>
+        <img src="images/shabu portpic.png" class="logo">
+        <ul id="sidemenu"><!--id for mob screen-->
+           <li><a href="#header">Home</a></li> 
+           <li><a href="#about">About</a></li> 
+           <li><a href="#services">Leadership</a></li> 
+           <li><a href="#Awards">Awards</a></li> 
+           <li><a href="#contact">Contact</a></li> 
+           <i class="fa-solid fa-xmark" onclick="cloesemenu()"></i><!--onclick for click response-->
+           <li> <a><img src= "images/sun.png"alt="Mode" id="icon"></a></li>
+          </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+   </nav>
+   <div class="header-text">
+    <img src="images/IMG_20221228_134737 (1)1.jpg" alt="profilepic">
+    <h5>   Hey ! I Am  </h5>
+    <H1> <span> MOHAMMED SHIEK SHABUDDIN </span><br> </H1>
+    <h4>Strategy and Operations | <span> <a draggable href="https://applyatscale.com/"> Apply at Scale</a></span></h4>
+   </div>
+  </div>
+</div>  
+<!------------------------about-->
+<div id="about">
+  <div class="container">
+   <div class="row">
+    <div class="about-col-1">
+      <img src="images/jkajnsnjsknqa.jpg">
+    </div>
+    <div class="about-col-2">
+       <h1 class="sub-title">About Me</h1>
+      <p>Passionate about Human Resource Management. Building purpose-driven projects & driving change. Initiated 50+ impactful youth empowerment projects.<br>
+        Founding Team @ Apply at Scale.<br>
+        Summer 2023 HR Intern @ Adani Wilmar. <br>
+        President 2021-2022 @Rotaract club of GITAM.<br>
+        Pursuing MBA @ CMS Business School.<br>
+        GITAM alum.</p>
+      <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+      </div>
+      <div class="tab-contents active-tab" id="experience">
+        <h7><B>Apply at Scale (Remote)</B></h7>
+        <ul>
+           <li><span> Founding Team - Strategy and Operations <br>Nov 2022 – Present</span><br><li>Achieved market penetration by identifying 1044 US companies sponsoring product (Visa sponsorship) roles (2018-2022), conducted LinkedIn marketing resulting in 4lacs+ post impressions, 1000+ document requests, and converting to 1st ten clients within a month.</li></li>
+           <li>Pioneered a workforce model strategy by enlisting students as associates to serve clients, leading to the successful onboarding of 60+ associates supporting approximately 40 clients.<br</li>
+           <li>Oversee talent acquisition, conduct onboarding, and provide operational training for associates. Execute monthly payroll benchmarking for employees.</li>
+           <li>Delivered the training session's for 100+ associates about the operations, strategies and automation tools.</li>
+           <br>
+           <h7><B>Adani Wilmar, Bengaluru, India</B></h7>
+           <li><span> Human Resource Management - Summer Intern <br>  June 2023- Aug 2023</span><br></li>
+           <li>Talent Acquisition: Experience in sourcing FMCG sales profiles on Naukri for both executive and managerial roles. Focused on sourcing candidates for the divisions of General Trade, Modern Trade, and HORECA.</li>
+           <li>Power BI Dashboard: Developed a data-driven dashboard by employing data scraping techniques in Excel, seamlessly integrated with Power BI, to assess training effectiveness.</li>
+           <li>Market Visit: Visited 40 outlets and with sales officer, providing valuable insights into FMCG sector sales generation strategies.</li>
+           <li>Program Effectiveness: Initiative to gauge the efficacy of recurrent knowledge sharing programs. By crafting well-structured feedback questionnaires, this methodical approach enabled us to quantify the impact of the programs accurately.</li>
+        </ul>
+      </div>
+  
+      <div class="tab-contents " id="education">
+          <ul>
+               <li><span>Aug2022 - May2024</span><br> MBA in CMS Business School, JAIN Deemed University | Bengaluru, India
+                MBA (Masters in Human Resource Management)<br>Grade:8.09</li>
+                <li><span>July2019 - May2022</span><br>  GITAM Deemed University B.sc (Biotechnology, Microbiology,Chemistry)| Visakhapatnam,India<br>Grade:7.89CGPA</li>
+                <li><span>July2018 - April2019</span><br>Sri chaitanya Junior College | Visakhapatnam<br>Class 12 | Grade:8.82CGPA</li>
+            <li><span>June2016 - April2017</span><br> Mohan Secondary High School | Visakhapatnam<br>Class 10 | Grade:8.20 CGPA</li>
+          </ul>
+        </div>
+  
+     </div>
+    </div>
+   </div>
+  </div>
+<!-- ---------services--------- -->
+<div id="services">
+    <div class="container">
+     <h1 class="sub-title">Leadership Extra-curricular Activity</h1>
+     <div class="services-list">
+       <div>
+        <i class="fa-brands fa-rebel"></i><!-- adding icon-->
+         <h2> Rotaract Club of GITAM  President</h2>
+         <h5>Identified and leveraged new talents and potential future leaders for the club.<br><br>During the tenure, organised 50+ projects with the objective to empower student crowd.<br><br>Hosted the two days Rotaract District Conference- MAD Carnival. </h5>
+         <a href="#">Know more</a>
+       </div>
+ 
+       <div>
+        <i class="fa-regular fa-lightbulb"></i><!-- adding icon-->
+         <h2>HR Cruise Core Committee Member</h2>
+         <h5>Prepared the Governance Policies, Event Workflow (SOP) and Functional Guidelines.<br><br> CRANIUM - International Management Fest | Core Committee Member for the HR Vertical.<br><br>HR Conclave 2023 - Led a 16-member team and organized an HR Conclave at CMS Business School, attracting around 100 participants.</h5>
+         <a href="#">Know more</a>
+       </div>
+ 
+     </div>
+    </div>
+ </div>
+ <!--  -----------------portfolio--------------->
+ <div id ="Awards">
+ <div class="container">
+  <h1 class="sub-title">Awards and Honors</h1>
+    <div class="awa">
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-award"></i><!-- adding icon-->
+          <h2>District Awards</h2>
+          <h5>->Best Professional service project for the year 2021-2022 <br><br>->Best District Support Club<br><br>->Best Professional Service Director Award </h5>
+          <a href="#">Know more</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-award"></i><!-- adding icon-->
+          <h2> University Awards</h2>
+          <h5>->Excellence in Documentation and student operating procedures.<br><br>->Excellence in Networking and Collaborations. </h5>
+          <a href="#">Know more</a>
+        </div>
+    </div>
+ </div>
+ </div>
+             
+ <!-- ----------------contact-- ------------------------>
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+     <div class="contact-left"> 
+       <h1 class="sub-title">Contact Me</h1>
+       <P><i class="fa-solid fa-paper-plane"></i>mohammed_shiek22@cms.ac.in</P>
+       <p><i class="fa-solid fa-square-phone"></i>+91 7659868589</p>
+       <div class="social-icons">
+        <a href="https://wa.me/917659868589"><i class="fa-brands fa-whatsapp"></i>
+         <a href="https://x.com/sha_shabuddin?t=V1x9_PGrq1WuTGa8UVuQAg&s=08"><i class="fa-brands fa-square-x-twitter"></i></a>
+         <a href="https://instagram.com/shabuddinshas?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-square-instagram"></i></a>
+         <a href="https://www.linkedin.com/in/ms-shabuddin/"><i class="fa-brands fa-linkedin"></i></a>
+       </div>
+       <a href="images/Resume_Shabuddin.pdf" class="btn">DownloadCV</a>
+     </div>
+     <div class="contact-right">
+       <form name="submit-to-google-sheet"><!--for form submit we need to add name="submit-to-google-sheet"-->
+         <input type="text" name="Name" placeholder=" your name" required>
+         <input type="email" name="Email" placeholder="your Email" required>
+         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+         <button type="submit" class="btn btn2">Submit</button>
+       </form>
+       <span id="msg"></span>
+     </div>
+    </div>
+  </div>
+  <div class="copyright">
+   <p>Copyright © Sha's</p>
+   
+  </div>
+</div>
+
+
+
+
+
+<script>
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+         
+         function opentab(tabname){
+          for(tablink of tablinks){
+                tablink.classList.remove("active-link"); 
+         }
+         for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab"); 
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");       
+       }
+</script>
+<!--for side menu button in mob screen-->
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+     sidemenu.style.right = "0";
+    }
+    function cloesemenu(){
+     sidemenu.style.right = "-200px";
+    }
+</script>
+<!--for google form  -->
+<script>
+ const scriptURL = ' https://script.google.com/macros/s/AKfycbwpC1S5tlvCOFx5fWR9nZM-SAAo1bIyB13Xe8vhkRxhYbkAYwWo2gwy9R-7bXY0foTW/exec'
+ const form = document.forms['submit-to-google-sheet'] 
+ const msg = document.getElementById("msg")
+
+ form.addEventListener('submit', e => {
+   e.preventDefault()
+   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+     .then(response =>{
+       msg.innerHTML = "Message sent sucessfully"
+       setTimeout(function(){
+         msg.innerHTML = ""
+       },5000)/*!--5000 milli sec--*/    
+       form.reset()
+     })
+     .catch(error => console.error('Error!', error.message))
+ })
+</script>
+
+
+<script>
+
+ let icon = document.getElementById("icon");
+ icon.onclick = function(){
+   document.body.classList.toggle("dark-theme");
+ }
+</script>
+
+</body>
+</html>
+ 
+ 
+ 
+ 
+ 
